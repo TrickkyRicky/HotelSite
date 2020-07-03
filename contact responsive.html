@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Describe Website meta tag -->
+    <meta name = "description" content = "Welcome to the most extraodinary hotel in Boston M.">
+    <!-- Search Engine keywords to find on google, etc. -->
+    <meta name = "keywords" content = "hotel, boston hotel, new england hotel">
+    <!-- Gives access to icons on 3rd party site font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- Link style sheet  -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Style sheet only activates once we get to width 768 or less -->
+    <link rel="stylesheet" media = "screen and (max-width: 768px)" href="/css/mobile.css">
+    <title>Hotel BT | Contact </title>
+
+</head>
+<body>
+
+    <!-- (Semantic Tag) Same as div just with an organized title -->
+    <header>
+        <!-- Semantic Tag -->
+        <nav id = "navbar">
+            <!-- Contains the elements within the navbar so they are always centered -->
+            <div class="container">
+                <!-- Logo should take you back to homepage -->
+                <h1 class = "logo"><a href = "index.html">HBT</a></h1>
+                <!-- gives list of links to navigate through website -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about responsive.html">About</a></li>
+                    <li><a class = "current" href="contact responsive.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <sectiion id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class = "text-primary">Contact</span> Us</h1>
+            <p>Please fill out the from below to contact us</p>
+            <!-- fake submission would go to backend to save into table etc. -->
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type ="submit" class = "btn">Submit</button>
+            </form>
+        </div>
+    </sectiion>
+
+    <section id="contact-info" class = "bg-dark">
+        <div class="container">
+
+            <div class="box">
+                <!-- hotel icon class from font awesome website -->
+                <i class = "fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>50 Main st, Boston MA</p>
+            </div>
+    
+            <div class="box">
+                <!-- utensils icon from awesome page and fa-3x increases size this is a class apart of font awesome aswell -->
+                <i class = "fas fa-phone fa-3x"></i>
+                <h3>Phone Number</h3>
+                <p>(678) 999-8212</p>
+            </div>
+    
+            <div class="box">
+                <!-- same as the others font awesome class just change name -->
+                <i class = "fas fa-envelope fa-3x"></i>
+                <h3>Email Address</h3>
+                <p>frontdesk@hotelbt.co</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Semantic Tag + Copyright footer -->
+    <footer id = "main-footer">
+        <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+    </footer>
+</body>
+</html>

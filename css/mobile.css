@@ -1,0 +1,78 @@
+/* This is the style sheet to make my hotel website rtesponsive on 
+   on other devices other than a computer screen or laptop. This will
+   be more mobile device friendly */
+
+/* To get the navbar to be centered up we took away the float
+   and centered the text */
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+/* overriding the floats to  */
+#navbar ul, #navbar ul li {
+    float: none;
+}
+
+/* Creates space between the vertical navbar and a light horizontal line too */
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+/* Showcase */
+#showcase {
+    height: 100%; 
+}
+
+/* Sizing */
+#showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/* Home Info */
+#home-info {
+    height: 550px;
+}
+
+/* Hides the image */
+#home-info .info-img {
+    display: none;
+}
+
+/* Makes THE HISTORY OF OUR HOTEL section take up the entiere window */
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+/* Boxes */
+.box {
+    float: none; 
+    width: 100%;
+}
+
+/* About */
+
+/* clears floats and creastes a more vertica; style */
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+/* Pushes photo down from text */
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+/* Centers heading on about page */
+.l-heading {
+    text-align: center;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+}

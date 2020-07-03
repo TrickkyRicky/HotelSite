@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Describe Website meta tag -->
+    <meta name = "description" content = "Welcome to the most extraodinary hotel in Boston M.">
+    <!-- Search Engine keywords to find on google, etc. -->
+    <meta name = "keywords" content = "hotel, boston hotel, new england hotel">
+    <!-- Link style sheet  -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Style sheet only activates once we get to width 768 or less -->
+    <link rel="stylesheet" media = "screen and (max-width: 768px)" href="/css/mobile.css">
+    <title>Hotel BT | About </title>
+</head>
+<body>
+
+    <!-- (Semantic Tag) Same as div just with an organized title -->
+    <header>
+        <!-- Semantic Tag -->
+        <nav id = "navbar">
+            <!-- Contains the elements within the navbar so they are always centered -->
+            <div class="container">
+                <!-- Logo should take you back to homepage -->
+                <h1 class = "logo"><a href = "index.html">HBT</a></h1>
+                <!-- gives list of links to navigate through website -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class = "current" href="about responsive.html">About</a></li>
+                    <li><a href="contact responsive.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section id="about-info" class = "bg-light py-3">
+        <div class="container">
+            <div class="info-left">
+                <h1 class = "l-heading"><span class = "text-primary">About</span> Hotel BT</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dolorum expedita quisquam eligendi error quasi, aperiam rem provident quibusdam consectetur accusantium mollitia adipisci magni sunt amet assumenda et quod sequi?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate maiores, ducimus officia cum atque corrupti accusamus placeat temporibus iusto!</p>
+            </div>
+            <div class="info-right">
+                <img src = "./img/photo-2.jpg" alt = "Hotel">
+            </div>
+        </div>
+    </section>
+
+    <div class="clr"></div>
+
+    <section id="testimonials" class="py-3">
+        <div class="container">
+            <h2 class="l-heading">What Our Guest Say</h2>
+
+            <!-- adding bg-primary gave background color so need for box -->
+            <div class="testimonial bg-primary">
+                <img src="./img/person-1.jpg" alt="Samantha">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fuga totam blanditiis laborum sunt cumque iste eius id est ab asperiores eos optio magnam molestiae, dicta rem adipisci quibusdam veritatis distinctio maiores fugiat assumenda. Alias eos eius officiis ab quia!</p>
+            </div>
+            
+            <!-- adding bg-primary gave background color so need for box -->
+            <div class="testimonial bg-primary">
+                <img src="./img/person-2.jpg" alt="Jennifer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non fuga totam blanditiis laborum sunt cumque iste eius id est ab asperiores eos optio magnam molestiae, dicta rem adipisci quibusdam veritatis distinctio maiores fugiat assumenda. Alias eos eius officiis ab quia!</p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Semantic Tag + Copyright footer -->
+    <footer id = "main-footer">
+        <p>Hotel BT &copy; 2019, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
