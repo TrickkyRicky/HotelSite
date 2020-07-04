@@ -162,7 +162,7 @@ p {
 /* Showcase */
 #showcase {
     /* makes background the photo */
-    background: url('img/showcase.jpg') no-repeat
+    background: url('../img/showcase.jpg') no-repeat
     center center/cover;
     /* extendeds photo */
     height: 600px;
@@ -195,7 +195,7 @@ p {
     /* float photo and set it to 50% of the screen */
     float: left;
     width: 50%;
-    background: url('img/photo-1.jpg') no-repeat;
+    background: url('../img/photo-1.jpg') no-repeat;
     /* Shows img taking up whole space */
     min-height: 100%;
 }
